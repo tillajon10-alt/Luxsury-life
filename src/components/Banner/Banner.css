@@ -1,0 +1,79 @@
+.banner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.banner-left {
+  width: 35%;
+}
+
+.banner-left h2 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.banner-left p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #6d6d6d;
+  margin-bottom: 40px;
+}
+
+.banner-left button {
+  width: 180px;
+  height: 58px;
+  border: none;
+  border-radius: 35px;
+  background: #27ae60;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.banner-right {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.card {
+  height: 180px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.card img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
