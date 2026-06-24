@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
+import Cards from "./components/cards/Cards";
 
 const App = () => {
   return (
     <div>
-      <header>Header</header>
-      <main>main</main>
-      <footer>Footer</footer>
+      <header></header>
+
+      <main>
+        <Cards />
+      </main>
     </div>
   );
 };
