@@ -1,4 +1,5 @@
 import "./App.css";
+import Cards from "./components/cards/Cards";
 import Section from "./components/Section+Footer/Section";
 import Footer from "./components/Section+Footer/Footer";
 import Location from "./components/location/Location";
@@ -11,6 +12,7 @@ const App = () => {
     <div>
       <header>Header</header>
       <main>
+        <Cards />
         <Banner />
         <Discover />
         <Section />
