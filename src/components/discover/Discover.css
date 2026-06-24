@@ -1,0 +1,42 @@
+.discover {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 50px;
+  background-color: rgba(240, 240, 240, 2);
+  border-radius: 10px;
+}
+
+.houuse {
+  display: flex;
+  width: 628px;
+  height: 520px;
+  opacity: 1;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.discover__right {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 497;
+  height: 368;
+  top: 76px;
+  left: 698px;
+  border-radius: 35px;
+  gap: 100px;
+  font-size: 16px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}

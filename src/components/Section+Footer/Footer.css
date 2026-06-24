@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Title {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555555;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.Facebook {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 198px;
+}
+
+.Instagram {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 268px;
+  margin-top: -16px;
+}
+
+.Google {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 338px;
+  margin-top: -16px;
+}
+
+.Home {
+  margin-left: 620px;
+  margin-top: -120px;
+  font-family: Open Sans;
+  font-weight: 100;
+  font-size: 19px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.Home a {
+  text-decoration: none;
+}
+
+.Home h2 {
+  color: #222222;
+  height: 40px;
+}
+
+.Home h4 {
+  color: #222222;
+  height: 40px;
+}
+
+.Help {
+  margin-left: 860px;
+  margin-top: -200px;
+  color: #555555;
+  font-family: Open Sans;
+  font-weight: 100;
+  font-size: 19px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.Help h2 {
+  color: #222222;
+  height: 40px;
+}
+
+.Help h4 {
+  color: #222222;
+  height: 40px;
+}
+
+.App {
+  margin-left: 1160px;
+  margin-top: -200px;
+  color: #555555;
+  font-family: Open Sans;
+  font-weight: 100;
+  font-size: 19px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.App h2 {
+  color: #222222;
+  height: 40px;
+}
+
+.App h4 {
+  color: #222222;
+  height: 40px;
+}
