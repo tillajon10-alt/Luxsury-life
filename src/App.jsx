@@ -5,8 +5,6 @@ import Cards from "./components/cards/Cards";
 const App = () => {
   return (
     <div>
-      <header></header>
-
       <main>
         <Cards />
       </main>

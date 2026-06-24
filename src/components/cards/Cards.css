@@ -3,40 +3,43 @@
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
+  align-items: center; 
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .cards-wrapper h1 {
   font-size: 32px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .cards-wrapper p {
   color: gray;
   margin-bottom: 40px;
+  text-align: center;
 }
 
-.cards-wrapper > div {
+.cards-container {
   display: flex;
   gap: 25px;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 .card {
   width: 320px;
-  justify-content: center;
-  align-items: center;
   border-radius: 15px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-
 .card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-
 }
 
 .card-body {
@@ -63,10 +66,10 @@
 .card-footer p {
   font-size: 14px;
   color: #333;
+  margin: 0; 
 }
 
 .card-footer p:last-child {
   color: #ff9800;
   font-weight: bold;
 }
-
