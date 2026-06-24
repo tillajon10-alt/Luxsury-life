@@ -1,11 +1,12 @@
-import React from "react";
 import "./App.css";
-
+import Location from "./components/location/Location";
 const App = () => {
   return (
     <div>
       <header>Header</header>
-      <main>main</main>
+      <main>
+        <Location />
+      </main>
       <footer>Footer</footer>
     </div>
   );

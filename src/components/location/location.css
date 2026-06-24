@@ -1,0 +1,63 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+  position: absolute;
+  bottom: 10px;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main__text {
+  background: #fff;
+  width: 90%;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__text--title {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right {
+  display: flex;
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__input {
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+  border: none;
+  background: #fafafa;
+  width: 40%;
+  position: absolute;
+  right: 0;
+}
+
+.right > button {
+  padding: 10px;
+  background: #24ab70;
+  border-radius: 20px;
+  border: none; 
+  position: absolute;
+  right: 0;
+
+}
