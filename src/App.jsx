@@ -1,12 +1,18 @@
 import React from "react";
 import "./App.css";
+import Section from "./components/Section+Footer/Section";
+import Footer from "./components/Section+Footer/Footer";
 
 const App = () => {
   return (
     <div>
-      <header>Header</header>
-      <main>main</main>
-      <footer>Footer</footer>
+      <header></header>
+      <main>
+        <Section />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
